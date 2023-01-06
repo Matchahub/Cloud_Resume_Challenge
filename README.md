@@ -15,7 +15,7 @@ My CV built using AWS services (from the Cloud Resume Challenge)
 
 7. A lambda function was created using Python as the runtime alongside the Boto3 SDK. Every time the function is invoked, it will retrieve the value of counter_value from DynamoDB and then increments the value by 1. 
 
-8. API Gateway was used to integrate the DynamoDB table and Lambda function (API Gateway is the Lambda trigger in this case). Created an API endpoint that enables a POST request to be made from the frontend everytime the webpage is loaded or refreshed. The API endpoint is referenced in a Javascript file on the frontend hosted on S3. CORS was enabled before deploying the API.
+8. API Gateway was used to integrate the DynamoDB table and Lambda function (API Gateway is the Lambda trigger in this case). Created an API endpoint that enables a GET request to be made from the frontend everytime the webpage is loaded or refreshed. The API endpoint is referenced in a Javascript file on the frontend hosted on S3. CORS was enabled before deploying the API.
 
 9. A simple Cypress test was written that checks if the API endpoint returns a response (so-called hearbeat check).
 
