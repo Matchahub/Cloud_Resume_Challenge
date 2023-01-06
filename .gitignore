@@ -1,4 +1,5 @@
 /node_modules
+/.git
 
 Make sure your .gitignore file is like this
 # Local .terraform directories
