@@ -19,6 +19,6 @@ My CV built using AWS services (from the Cloud Resume Challenge)
 
 9. A simple Cypress test was written that checks if the API endpoint returns a response (so-called hearbeat check).
 
-10. CICD (In progress)
+10. Created CICD pipeline with Github Actions. Upon any code pushes to the repository, the github action will run a workflow where the contents of the repository is synced with the S3 bucket hosting the frontend of the website. Applying changes to the frontend files in the repository will automatically be reflected in the website UI.
 
 Future improvements: Configure the entire infrastructure using Infrastructure as Code (Terraform)
