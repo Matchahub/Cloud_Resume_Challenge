@@ -1,8 +1,7 @@
 # Cloud_Resume_Challenge
 My CV built using AWS services (from the Cloud Resume Challenge by Forrest Brazeal)
 
-![Architecture Diagram](https://user-images.githubusercontent.com/85294871/211840500-228030c9-8897-49bb-bfb2-8f2959902a09.png)
-
+![Architecture Diagram](https://user-images.githubusercontent.com/85294871/211840935-b4320e77-b0c9-43f1-a1c3-2d33acc87972.png)
 
 1. Found a simple HTML template with CSS online to create the look of my resume website.
 
