@@ -1,4 +1,4 @@
-# Cloud_Resume_Challenge
+# Cloud Resume Challenge
 My CV built using AWS services (from the Cloud Resume Challenge by Forrest Brazeal)
 
 ![Architecture Diagram CRC](https://user-images.githubusercontent.com/85294871/212121201-09929e9b-d8ea-4cb7-be61-fe12a0bb9aee.png)
