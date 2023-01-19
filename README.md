@@ -23,4 +23,4 @@ My CV built using AWS services (from the Cloud Resume Challenge by Forrest Braze
 
 10. A simple Cypress test was written that checks if the API endpoint returns a response (a so-called hearbeat check). GitHub Actions was used to setup automated testing of the API endpoint upon any new code changes pushed to the repository.
 
-Future improvements: Configure the entire infrastructure using Infrastructure as Code! (Terraform)
+Future improvements: Configure the entire infrastructure using Infrastructure as Code (in progress)
