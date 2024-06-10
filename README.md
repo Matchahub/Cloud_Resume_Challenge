@@ -15,7 +15,7 @@ My CV built using AWS services (from the Cloud Resume Challenge by Forrest Braze
 
 6. Created a DynamoDB table, which is used to store a count of the number of times that the resume site has been visited on the internet. A partition key and attribute called counter_value was created and initialised at zero.
 
-7. A lambda function was created using Python as the runtime alongside the Boto3 SDK. Every time the function is invoked, it will retrieve the value of counter_value from DynamoDB and then increments the value by 1. 
+7. A lambda function was created using Python and boto3 SDK. Every time the function is invoked, it will retrieve the value of counter_value from DynamoDB and then increments the value by 1. 
 
 8. API Gateway was used to integrate the DynamoDB table and Lambda function (API Gateway is the Lambda trigger in this case). Created an API endpoint that enables a GET request to be made from the frontend every time the webpage is loaded or refreshed. The API endpoint is referenced in a Javascript file on the frontend hosted on S3. CORS was enabled before deploying the API.
 
